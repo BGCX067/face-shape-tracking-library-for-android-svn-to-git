@@ -1,0 +1,29 @@
+#summary It connects to JNI functions which is about Active Shape Model.
+
+= Introduction =
+
+It extends fstLibraryBase and it connects to JNI functions which is about Active Shape Model.
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
+
+
+= Public Method Overview =
+
+*public fstLibrary(Context context, int cIdx)* 
+
+	 * @param context - android.content.Context
+	  * @param cIdx
+	  * 			- Camera Index
+	  * 			- fstLibraryBase.BACK_CAMERA  - (0)
+	  * 			- fstLibraryBase.FRONT_CAMERA - (1)
+	 
+	 * <b>Usage</b>
+	  *  fstLibrary mFstLibrary = fstLibrary(this, fstLibraryBase.FRONT_CAMERA);
+	  *  frameLayout.addView(mFstLibrary);   
+	      OR
+	  *  setContentView(mFstLibrary);

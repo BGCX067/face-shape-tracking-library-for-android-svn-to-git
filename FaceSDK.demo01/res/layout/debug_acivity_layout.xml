@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <FrameLayout 
+        android:id="@+id/faceSDK.demo01View"
+        android:layout_width="wrap_content"		android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"	android:visibility="visible"
+    />
+    
+        <RelativeLayout 
+    	    android:layout_width="wrap_content"		android:layout_height="wrap_content"
+        	android:layout_alignParentRight="true"	android:layout_alignParentTop="true"
+        	android:background="#eeeeee"
+        >
+	    <TextView
+	        android:id="@+id/demo01.txtView01"
+	        android:layout_width="wrap_content"	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"		android:layout_alignParentTop="true"
+	        android:text="@string/hello_world"			android:padding="10dp"
+		 />
+	     <TextView
+	        android:id="@+id/demo01.txtView02"
+	        android:layout_width="wrap_content"	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"		android:layout_below="@id/demo01.txtView01"
+	        android:text="@string/hello_world"			android:padding="10dp"
+		 />
+	     <TextView
+	        android:id="@+id/demo01.txtView03"
+	        android:layout_width="wrap_content"	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"		android:layout_below="@id/demo01.txtView02"
+	        android:text="@string/hello_world"			android:padding="10dp"
+		 />
+	     <TextView
+	        android:id="@+id/demo01.txtView04"
+	        android:layout_width="wrap_content"	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"		android:layout_below="@id/demo01.txtView03"
+	        android:text="@string/hello_world"			android:padding="10dp"
+		 />       
+            
+        </RelativeLayout>
+    
+</RelativeLayout>

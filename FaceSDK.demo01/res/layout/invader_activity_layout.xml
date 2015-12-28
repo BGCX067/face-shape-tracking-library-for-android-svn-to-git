@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <FrameLayout 
+        android:id="@+id/demo04.frameLayout"
+        android:layout_width="match_parent"	android:layout_height="match_parent"
+        android:visibility="visible"
+     />
+     <FrameLayout 
+        android:id="@+id/demo04.faceSDKView"
+        android:layout_width="160px"		android:layout_height="120px"
+        android:layout_alignParentTop="true"	android:layout_alignParentRight="true"
+    />
+
+</RelativeLayout>
